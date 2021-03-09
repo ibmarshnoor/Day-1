@@ -1,0 +1,35 @@
+
+public class School {
+	public static void main(String[] args) {
+		int i=0;
+		//teacher.setAge((byte)34);
+		/*for(int i=0;i<10;i++)
+		{
+			Teacher teacher=new Teacher("Sham"+i);		
+		}
+		while(i<10)
+		{
+			System.out.println();("Rss"+j);
+			j++;
+		}*/
+		for(int i=1;i<=5;i++)
+		{
+			for(int j=1;j<=i;j++)
+			{
+				System.out.println("*");
+			}
+		}
+	//	System.out.println("Name:"+teacher.getName());
+	//	System.out.println("Name:"+teacher.getAge());
+	}
+	void studentDiscussion() {
+		System.out.println("Hello");
+		Student st1=new Student("Ram");
+		st1.setAge((byte)10);
+		//st1.name="Ram";
+		//st1.setName(" ");
+		System.out.println("Name:"+st1.getName());
+     	System.out.println("Age:"+st1.getAge());
+	}
+
+}

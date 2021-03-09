@@ -1,0 +1,3 @@
+
+class A {A(int i) {}}  // 1
+class B extends A {}   // 2

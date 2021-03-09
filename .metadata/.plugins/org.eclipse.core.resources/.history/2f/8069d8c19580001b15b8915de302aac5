@@ -1,0 +1,10 @@
+
+public class School {
+	public static void main(String[] args) {
+		Student st1=new Student();
+		//st1.name="Ram";
+		st1.setName(null);
+		System.out.println(st1.getName());
+	}
+
+}
