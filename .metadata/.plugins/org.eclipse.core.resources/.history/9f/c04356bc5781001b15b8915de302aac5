@@ -23,7 +23,7 @@ public class School {
 		{
 			for(int j=1;j<=k;j++)
 			{
-			System.out.print("*");
+				System.out.print("*");
 			}
 			System.out.println();
 		}
