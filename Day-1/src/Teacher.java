@@ -1,3 +1,4 @@
+import dataconversion.Human;
 
 public class Teacher extends Human{
  private String name;

@@ -1,8 +1,21 @@
-
+package dataconversion;
 
 public class Human {
 	private String name;
 	private byte age;
+	private GENDER gender=GENDER.FEMALE;
+
+	public GENDER getGender()
+	{
+		return gender;
+	}
+	void eat()
+	{
+		System.out.println("Human eats");
+	}
+	public void setGender(GENDER gender) {
+		this.gender=gender;
+	}
 	
 	public String getName() {
      	return name;

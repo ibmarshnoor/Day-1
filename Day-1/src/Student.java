@@ -1,3 +1,4 @@
+import dataconversion.Human;
 
 public class Student extends Human {
 	
