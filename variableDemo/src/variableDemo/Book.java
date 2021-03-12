@@ -8,7 +8,7 @@ public class Book {
 		if(a==10) {
 			int b=20;
 		}
-		System.out.println(b);
+		//System.out.println(b);
 	}
       public static void main(String[] args) {
     	  Book book =new Book();

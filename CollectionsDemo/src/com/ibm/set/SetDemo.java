@@ -19,6 +19,7 @@ public class SetDemo {
 			books.add(book);
 			
 		}
+		System.out.println(books.size());
 	System.out.println(books);
 		
 	}
