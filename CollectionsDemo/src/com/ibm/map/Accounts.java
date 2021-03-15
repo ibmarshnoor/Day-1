@@ -14,10 +14,10 @@ public class Accounts {
     	   Bank accountBalance=new Bank();*/
     	   
     	   for (int i = 0; i < Account.length; i++) {
-			accountName.setName("Ram");
+		/*	accountName.setName("Ram");
 			accounts.add(accountName);
 			accountBalance.setBalance(100);
-			accounts.add(accountBalance);
+			accounts.add(accountBalance);*/
 		}
     	//  accounts.add(accountName);
     	 // accounts.add(accountBalance);
